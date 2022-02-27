@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sa descoperim Moldova</title>
+    <style>
+        article {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            margin-top: 0;
+        }
+        .cols-2 {
+            columns: 2;
+        }
+        .mtb-30 {
+             margin-top: 30px;
+             margin-bottom: 30px;
+        }
+        .mr-36 {
+            margin-right: 36px;
+        }
+        .img-large {
+            width: 1200px
+        }
+        .img-small {
+            width: 580px;
+            height: 380px;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .text-justify{
+            text-align: justify;
+        }
+        .b-top {
+            border-top: 1px solid #999;
+            padding-top: 10px;
+            color:
+        }
+        .b-bottom {
+            border-bottom: 1px solid #999;
+            padding-bottom: 10px;
+        }
+        .icons {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <article>
+
+        <!--HW*: why same TEXT size: h1, h2?--> 
+        <!--HW*: Raspuns: <article> este un element care reprezinta o compozitie completa, autonoma. De aici reiese ca h2 nu se comporta ca subsectiune a lui h1.-->
+
+        <h1>Sa descoperim Moldova!</h1>
+        <h2 class="b-bottom">Republica Moldova este o ţară frumoasă, care ascunde în orice colţ locuri spectaculoase. Forme de relief, cascade, peşteri sălbatice, monumente, lăcaşe de cult sau rezervații naturale mai puţin cunoscute, conferă ţării noastre o valoare turistică nebănuită, de care puţini suntem conştienţi. Tot ceea ce trebuie să facem este să ne Cunoaștem Țara,   ca mai apoi să le facem, la rândul nostru cunoscute şi să le apreciem la adevărata lor valoare.</h2>
+        
+        <!--HW1: HTML5: add the NEW correct semantic element-->
+        <!--HW1: Raspuns: Dupa parerea mea (dubii intre <section> si <article>), elementul semantic potrivit pentru sectiunea cind trebuie de grupat un continut grafic cu o descriere care poate fi citit ca tot intreg s-ar potrivi <article> -->
+
+        <div class="text-right">
+        <img class="img-large" src="images/740x371.jpg" alt="Cetatea Soroca">
+        <img class="img-small mr-36 " src="images/550x413.jpg" alt="Milestii Mici">
+        <img class="img-small" src="images/620x349.jpg" alt="Orheiul Vechi">
+        <br/>
+        <small> Moldova &copy; Autor A.C. </small>
+        <div class="cols-2 mtb-30 text-justify">
+           <p> <strong>Cetatea Soroca</strong> a fost înălțată de Ștefan cel Mare în ultimul sfert al secolului al XV-lea. O spune tradiția locală, care-i explică
+        numele prin faptul că domnul a pus soroc (termen de clădire). Cetatea Soroca a fost ănălțatî împotriva cetelot tătare de
+        pradă, care prin vadurile Nistrului, își croiau drum în Moldova. Soroca n-a fost o cetate mare, cu două rînduri de
+        ziduri, ca Suceava Cetatea Albă sau Hotinul, ci o fortăreațămică, un castel pentru adăpostul unei străji de pază
+        împotriva tătarilor.</p>
+           <p> <strong>Mileștii Mici</strong> este o localitate situată la 20 km la sud de Chișinău, în Raionul Ialoveni, Republica Moldova. Localitatea
+        a devenit faimoasă pentru colecția sa de vinuri (Colecția de Aur). Aceasta a intrat în Cartea Recordurilor ca cea mai
+        mare colecție de vinuri din Europa, cu peste 1,5 milioane de sticle de colecție.</p>
+           <p> <strong>Complexul Orheiul Vechi</strong>  constituie un sistem alcătuit din elemente culturale și naturale: landșaft natural arhaic,
+        biodiversitate, cadru arheologic de excepție, varietate istorico-arhitecturală, habitat rural tradițional și
+        originalitate etnografică.Rezervația cultural-naturală Orheiul Vechi prezintă un relief complex, care îmbină structuri geologice sarmațiene de
+        circa 13 milioane ani cu un caracter rupestru pronunțat și peisajuri cuaternare argiloase de circa 1,8 milioane – 10 mii
+        ani acoperite de cernoziomuri formate în ultimii 8 mii ani.</p>
+        </div>
+    </div>
+
+        <div class="text-right b-top"> vote <a class="icons" href=""> ▲ </a><a class="icons" href=""> ▼ </a> </div>
+    </article>
+</body>
+</html>
